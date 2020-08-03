@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import { SectionTitle, Pill } from '../../styles';
-import { ProjectItem, ProjectTitle, SkillContainer } from './styles';
+import { ProjectItem, ProjectLinkTitle, SkillContainer } from './styles';
 
 const Projects = ({ user }) => {
     return (
@@ -11,7 +11,7 @@ const Projects = ({ user }) => {
                 <ul>
                     {user.projects.map((project, i) => (
                         <ProjectItem key={i}>
-                            <ProjectTitle>{project.name}</ProjectTitle>
+                            <ProjectLinkTitle href={project.githubUrl} target="_blank">{project.name}</ProjectLinkTitle>
                             <p>{project.summary}</p>
                             <SkillContainer>
                                 {[...project.languages, ...project.libraries].map((item, j) => (
@@ -22,7 +22,7 @@ const Projects = ({ user }) => {
                     ))}
                 </ul>
             </div>
-        </Layout>
+        </Layout >
     );
 };
 
