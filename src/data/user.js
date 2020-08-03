@@ -207,7 +207,38 @@ export default {
         }
     ],
     "volunteer": [],
-    "awards": [],
+    "awards": [
+        {
+            "title": "Responsive Web Design",
+            "summary": "",
+            "awarder": "freeCodeCamp",
+            "date": "2020-07-22",
+            "fullDate": {
+                "year": 2020,
+                "month": 7
+            }
+        },
+        {
+            "title": "Full Stack Open",
+            "summary": "",
+            "awarder": "University of Helsinki",
+            "date": "2019-11-14",
+            "fullDate": {
+                "year": 2019,
+                "month": 11
+            }
+        },
+        {
+            "title": "JavaScript Algorithms and Data Structures",
+            "summary": "",
+            "awarder": "freeCodeCamp",
+            "date": "2018-06-23",
+            "fullDate": {
+                "year": 2018,
+                "month": 6
+            }
+        },
+    ],
     "languages": [],
     "interests": [],
     "references": []
