@@ -1,0 +1,189 @@
+{
+    "basics": {
+        "name": "Jason Goodney",
+        "picture": "https://avatars2.githubusercontent.com/u/7366019?v=4",
+        "label": null,
+        "headline": "I have a cat.",
+        "summary": "iOS, web, crossfit, met",
+        "website": null,
+        "blog": null,
+        "yearsOfExperience": null,
+        "id": "f99c4b1c-76fd-4ac2-af31-e0645035e290",
+        "username": "JasonGoodney",
+        "karma": 10,
+        "email": "",
+        "region": null,
+        "location": {},
+        "phone": "",
+        "followers": 18,
+        "following": 21,
+        "profiles": [
+            {
+                "network": "gitconnected",
+                "username": "JasonGoodney",
+                "url": "https://gitconnected.com/JasonGoodney"
+            },
+            {
+                "network": "GitHub",
+                "username": "JasonGoodney",
+                "url": "https://github.com/JasonGoodney"
+            }
+        ]
+    },
+    "skills": [
+        {
+            "name": "swift, iOS, javascript, react",
+            "level": "",
+            "rating": 0,
+            "yearsOfExperience": null,
+            "keywords": []
+        }
+    ],
+    "projects": [
+        {
+            "name": "freecodecamp-projects-web",
+            "displayName": "freecodecamp-projects-web",
+            "summary": "",
+            "website": "",
+            "githubUrl": "https://github.com/JasonGoodney/freecodecamp-projects-web",
+            "primaryLanguage": "JavaScript",
+            "languages": [
+                "CSS",
+                "JavaScript",
+                "HTML"
+            ],
+            "libraries": [],
+            "images": [],
+            "videos": []
+        },
+        {
+            "name": "freecodecamp-projects-swiftui",
+            "displayName": "freecodecamp-projects-swiftui",
+            "summary": "",
+            "website": "",
+            "githubUrl": "https://github.com/JasonGoodney/freecodecamp-projects-swiftui",
+            "primaryLanguage": "Swift",
+            "languages": [
+                "Swift"
+            ],
+            "libraries": [],
+            "images": [],
+            "videos": []
+        },
+        {
+            "name": "mybarbell",
+            "displayName": "MyBarbell",
+            "summary": "Simple and quick way to add up the plates on your barbell.",
+            "website": "",
+            "githubUrl": "https://github.com/JasonGoodney/MyBarbell",
+            "primaryLanguage": "Swift",
+            "languages": [
+                "Swift"
+            ],
+            "libraries": [],
+            "images": [],
+            "videos": []
+        },
+        {
+            "name": "wikio-ki",
+            "displayName": "wikio-ki",
+            "summary": "Photo and video messaging with your friends.",
+            "website": "https://jasongoodney.wixsite.com/wikioki",
+            "githubUrl": "https://github.com/JasonGoodney/wikio-ki",
+            "primaryLanguage": "Swift",
+            "languages": [
+                "Ruby",
+                "Swift",
+                "JavaScript"
+            ],
+            "libraries": [],
+            "images": [],
+            "videos": []
+        },
+        {
+            "name": "ccx-monitor",
+            "displayName": "CCX-Monitor",
+            "summary": "A cryptocurrency exchange monitor.",
+            "website": "https://itunes.apple.com/us/app/ccx-monitor/id1330227799?mt=8",
+            "githubUrl": "https://github.com/JasonGoodney/CCX-Monitor",
+            "primaryLanguage": "Swift",
+            "languages": [
+                "Swift",
+                "Ruby",
+                "Objective-C"
+            ],
+            "libraries": [],
+            "images": [],
+            "videos": []
+        }
+    ],
+    "work": [
+        {
+            "company": "Quadsimia",
+            "position": "Web Developer Intern",
+            "website": "",
+            "location": "",
+            "summary": "",
+            "isCurrentRole": false,
+            "startDate": "2019-12-01",
+            "endDate": "2020-03-01",
+            "start": {
+                "year": 2019,
+                "month": 12
+            },
+            "end": {
+                "year": 2020,
+                "month": 3
+            },
+            "highlights": []
+        }
+    ],
+    "publications": [],
+    "education": [
+        {
+            "institution": "SUNY Polytechnic Institute",
+            "area": "Mechanical Engineering Technology",
+            "studyType": "Bachelor's of Science",
+            "website": "",
+            "startDate": "2020-08-01",
+            "endDate": "2024-05-01",
+            "start": {
+                "year": 2020,
+                "month": 8
+            },
+            "end": {
+                "year": 2024,
+                "month": 5
+            },
+            "description": "",
+            "activities": "",
+            "gpa": "",
+            "courses": []
+        },
+        {
+            "institution": "DevMountain",
+            "area": "iOS Development",
+            "studyType": "",
+            "website": "",
+            "startDate": "2018-08-01",
+            "endDate": "2018-11-01",
+            "start": {
+                "year": 2018,
+                "month": 8
+            },
+            "end": {
+                "year": 2018,
+                "month": 11
+            },
+            "description": "",
+            "activities": "",
+            "gpa": "",
+            "courses": []
+        }
+    ],
+    "volunteer": [],
+    "awards": [],
+    "languages": [],
+    "interests": [],
+    "references": []
+}
