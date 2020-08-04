@@ -1,14 +1,21 @@
 import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { SideNavItems, SideNavLink, Spacer } from 'carbon-components-react/lib/components/UIShell'
-import { StyledSideNav, Image, ProfileLink } from './styles'
+import { StyledSideNav, Image, ProfileLink, EmailLink } from './styles'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
+    faGithub,
     faGithubSquare,
+    faAppStore,
     faAppStoreIos,
-    faLinkedin
+    faLinkedinIn,
+    faLinkedin,
+    faFreeCodeCamp
 } from '@fortawesome/free-brands-svg-icons';
+import {
+    faHeart
+} from '@fortawesome/free-solid-svg-icons'
 
 const items = [
     { name: 'Me', path: '/' },
@@ -23,11 +30,13 @@ const Sidebar = ({ user }) => {
     const getLogo = network => {
         switch (network) {
             case 'GitHub':
-                return faGithubSquare
+                return faGithub
             case 'App Store':
-                return faAppStoreIos
+                return faAppStore
             case 'LinkedIn':
-                return faLinkedin
+                return faLinkedinIn
+            case 'freeCodeCamp':
+                return faFreeCodeCamp
 
         }
     }
@@ -36,7 +45,7 @@ const Sidebar = ({ user }) => {
             <SideNavItems>
                 <Image src={user.basics.picture} />
                 <h3>{user.basics.name}</h3>
-                <p>{user.basics.email}</p>
+                <EmailLink href={`mailto: ${user.basics.email}`}>{user.basics.email}</EmailLink>
 
                 <div className="Sidebar-page-links">
                     {items.map(item => (
@@ -63,6 +72,9 @@ const Sidebar = ({ user }) => {
                     ))}
                 </div>
             </SideNavItems>
+            <div style={{ marginBottom: '1rem' }}>
+                Made with <FontAwesomeIcon icon={faHeart} /> in Utica, NY
+            </div>
         </StyledSideNav>
     )
 }

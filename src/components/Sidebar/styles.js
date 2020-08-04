@@ -20,3 +20,13 @@ export const ProfileLink = styled.li`
   // display: inline-block;
   font-size: 28px;
 `
+
+export const EmailLink = styled.a`
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    color: #0062ff;
+    text-decoration: underline;
+  }
+`
