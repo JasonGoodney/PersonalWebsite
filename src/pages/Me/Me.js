@@ -2,7 +2,7 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import { SectionTitle, Paragraph, Pill } from '../../styles';
-import { ProfileLink, Header1 } from './styles';
+import { ProfileLink, StyledH1, StyledH4 } from './styles';
 import backgroundImage from '../../assets/images/me_background.jpeg'
 
 const Me = ({ user }) => {
@@ -42,9 +42,11 @@ const Me = ({ user }) => {
                 margin: '-2rem'
             }}>
                 <div className='VerticalCenter'>
-                    <Header1>Hi,</Header1>
+                    <StyledH1>Hi,</StyledH1>
                     <br />
-                    <Header1>I'm {user.basics.name}</Header1>
+                    <StyledH1>I'm {user.basics.name}</StyledH1>
+                    <br />
+                    {/* <StyledH4>app dev, crossfit</StyledH4> */}
                 </div>
             </div>
         </Layout>
