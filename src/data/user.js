@@ -25,13 +25,19 @@ export default {
             },
             {
                 "network": "App Store",
-                "username": "JasonGoodney",
+                "username": "Jason-Goodney",
                 "url": "http://apps.apple.com/us/developer/jason-goodney/id1028141067"
             },
             {
                 "network": "LinkedIn",
                 "username": "JasonGoodney",
                 "url": "https://www.linkedin.com/in/jasongoodney/"
+            }
+            ,
+            {
+                "network": "freeCodeCamp",
+                "username": "Jason.Goodney",
+                "url": "https://www.freecodecamp.org/jason.goodney"
             }
         ]
     },
