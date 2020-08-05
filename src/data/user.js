@@ -50,84 +50,230 @@ export default {
             "keywords": []
         }
     ],
-    "projects": [
-        {
-            "name": "freecodecamp-projects-web",
-            "displayName": "freecodecamp-projects-web",
-            "summary": "Building freeCodeCamp's projects",
-            "website": "",
-            "githubUrl": "https://github.com/JasonGoodney/freecodecamp-projects-web",
-            "primaryLanguage": "JavaScript",
-            "languages": [
-                "CSS",
-                "JavaScript",
-                "HTML"
-            ],
-            "libraries": [],
-            "images": [],
-            "videos": []
-        },
-        {
-            "name": "freecodecamp-projects-swiftui",
-            "displayName": "freecodecamp-projects-swiftui",
-            "summary": "Building freeCodeCamp's projects in SwiftUI",
-            "website": "",
-            "githubUrl": "https://github.com/JasonGoodney/freecodecamp-projects-swiftui",
-            "primaryLanguage": "Swift",
-            "languages": [
-                "Swift"
-            ],
-            "libraries": [],
-            "images": [],
-            "videos": []
-        },
-        {
-            "name": "mybarbell",
-            "displayName": "MyBarbell",
-            "summary": "Simple and quick way to add up the plates on your barbell.",
-            "website": "",
-            "githubUrl": "https://github.com/JasonGoodney/MyBarbell",
-            "primaryLanguage": "Swift",
-            "languages": [
-                "Swift"
-            ],
-            "libraries": [],
-            "images": [],
-            "videos": []
-        },
-        {
-            "name": "wikio-ki",
-            "displayName": "wikio-ki",
-            "summary": "Photo and video messaging with your friends.",
-            "website": "https://jasongoodney.wixsite.com/wikioki",
-            "githubUrl": "https://github.com/JasonGoodney/wikio-ki",
-            "primaryLanguage": "Swift",
-            "languages": [
-                "Ruby",
-                "Swift",
-                "JavaScript"
-            ],
-            "libraries": [],
-            "images": [],
-            "videos": []
-        },
-        {
-            "name": "ccx-monitor",
-            "displayName": "CCX-Monitor",
-            "summary": "A cryptocurrency exchange monitor.",
-            "website": "https://itunes.apple.com/us/app/ccx-monitor/id1330227799?mt=8",
-            "githubUrl": "https://github.com/JasonGoodney/CCX-Monitor",
-            "primaryLanguage": "Swift",
-            "languages": [
-                "Swift",
-                "Ruby",
-                "Objective-C"
-            ],
-            "libraries": [],
-            "images": [],
-            "videos": []
-        }
-    ],
+    "projects": {
+        "appStore": [
+            {
+                "name": "My Barbell",
+                "displayName": "My Barbell - Calculator",
+                "icon": "mybarbell-icon.png",
+                "summary": "My Barbell provides a fast and easy way to calculate the plates on your barbell. Select the barbell you are training with and the plates you added to the bar. Always have the correct PRs.",
+                "website": "https://apps.apple.com/us/app/my-barbell-calculator/id1444531187",
+                "githubUrl": "https://github.com/JasonGoodney/MyBarbell",
+                "primaryLanguage": "Swift",
+                "languages": [
+                    "Swift",
+                ],
+                "libraries": [],
+                "images": [],
+                "videos": []
+            },
+            {
+                "name": "Wikio Ki",
+                "displayName": "Wikio Ki",
+                "icon": "wikio-ki-icon.png",
+                "summary": "Wikio Ki is a simpy way to share moments with your friends",
+                "website": "https://apps.apple.com/us/app/wikio-ki/id1449103478",
+                "githubUrl": "https://github.com/JasonGoodney/wikio-ki",
+                "primaryLanguage": "Swift",
+                "languages": [
+                    "Swift",
+                ],
+                "libraries": ["Firebase", "SDWebImage", "JGProgressHUD", "SwiftyCam", "Digger", "NVActivityIndicatorView", "ColorSlider"],
+                "images": [],
+                "videos": []
+            },
+            {
+                "name": "CCX Monitor",
+                "displayName": "CCX Monitor",
+                "icon": "ccx-monitor-icon.png",
+                "summary": "CCX Monitor lets you easily track the cryptocurrency market, prices, volume changes, and market supply.",
+                "website": "https://apps.apple.com/us/app/ccx-monitor/id1330227799",
+                "githubUrl": "https://github.com/JasonGoodney/CCX-Monitor",
+                "primaryLanguage": "Swift",
+                "languages": [
+                    "Swift",
+                ],
+                "libraries": ["Firebase", "SnapKit", "Eureka", "EFAutoScrollLabel"],
+                "images": [],
+                "videos": []
+            },
+        ],
+        "github": [
+            {
+                "name": "freecodecamp-projects-web",
+                "displayName": "freecodecamp-projects-web",
+                "summary": "Building freeCodeCamp's projects",
+                "website": "",
+                "githubUrl": "https://github.com/JasonGoodney/freecodecamp-projects-web",
+                "primaryLanguage": "JavaScript",
+                "languages": [
+                    "CSS",
+                    "JavaScript",
+                    "HTML"
+                ],
+                "libraries": [],
+                "images": [],
+                "videos": []
+            },
+            {
+                "name": "freecodecamp-projects-swiftui",
+                "displayName": "freecodecamp-projects-swiftui",
+                "summary": "Building freeCodeCamp's projects in SwiftUI",
+                "website": "",
+                "githubUrl": "https://github.com/JasonGoodney/freecodecamp-projects-swiftui",
+                "primaryLanguage": "Swift",
+                "languages": [
+                    "Swift"
+                ],
+                "libraries": [],
+                "images": [],
+                "videos": []
+            },
+            {
+                "name": "mybarbell",
+                "displayName": "MyBarbell",
+                "summary": "Simple and quick way to add up the plates on your barbell.",
+                "website": "",
+                "githubUrl": "https://github.com/JasonGoodney/MyBarbell",
+                "primaryLanguage": "Swift",
+                "languages": [
+                    "Swift"
+                ],
+                "libraries": [],
+                "images": [],
+                "videos": []
+            },
+            {
+                "name": "wikio-ki",
+                "displayName": "wikio-ki",
+                "summary": "Photo and video messaging with your friends.",
+                "website": "https://jasongoodney.wixsite.com/wikioki",
+                "githubUrl": "https://github.com/JasonGoodney/wikio-ki",
+                "primaryLanguage": "Swift",
+                "languages": [
+                    "Ruby",
+                    "Swift",
+                    "JavaScript"
+                ],
+                "libraries": [],
+                "images": [],
+                "videos": []
+            },
+            {
+                "name": "ccx-monitor",
+                "displayName": "CCX-Monitor",
+                "summary": "A cryptocurrency exchange monitor.",
+                "website": "https://itunes.apple.com/us/app/ccx-monitor/id1330227799?mt=8",
+                "githubUrl": "https://github.com/JasonGoodney/CCX-Monitor",
+                "primaryLanguage": "Swift",
+                "languages": [
+                    "Swift",
+                    "Ruby",
+                    "Objective-C"
+                ],
+                "libraries": [],
+                "images": [],
+                "videos": []
+            }
+        ],
+        "responsiveWebDesign": [
+            {
+                "name": "Tribute Page",
+                "displayName": "",
+                "summary": "",
+                "website": "https://hardcore-bohr-78c1ac.netlify.app/",
+                "githubUrl": "",
+                "primaryLanguage": "",
+                "languages": [
+                    "HTML",
+                    "CSS",
+                ],
+                "libraries": [],
+                "images": [],
+                "videos": []
+            },
+            {
+                "name": "Survey Form",
+                "displayName": "",
+                "summary": "",
+                "website": "https://keen-borg-5bdd35.netlify.app/",
+                "githubUrl": "",
+                "primaryLanguage": "",
+                "languages": [
+                    "HTML",
+                    "CSS",
+                ],
+                "libraries": [],
+                "images": [],
+                "videos": []
+            },
+            {
+                "name": "Product Landing Page",
+                "displayName": "",
+                "summary": "",
+                "website": "https://vigorous-murdock-8a4c9f.netlify.app/",
+                "githubUrl": "",
+                "primaryLanguage": "",
+                "languages": [
+                    "HTML",
+                    "CSS",
+                ],
+                "libraries": [],
+                "images": [],
+                "videos": []
+            },
+            {
+                "name": "Technical Documentation Page",
+                "displayName": "",
+                "summary": "",
+                "website": "https://friendly-almeida-c316c8.netlify.app/",
+                "githubUrl": "",
+                "primaryLanguage": "",
+                "languages": [
+                    "HTML",
+                    "CSS",
+                ],
+                "libraries": [],
+                "images": [],
+                "videos": []
+            }
+        ],
+        "frontEndLibraries": [
+            {
+                "name": "Random Quote Machine",
+                "displayName": "",
+                "summary": "",
+                "website": "https://wizardly-ritchie-fbe4ea.netlify.app",
+                "githubUrl": "",
+                "primaryLanguage": "",
+                "languages": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ],
+                "libraries": ["React"],
+                "images": [],
+                "videos": []
+            },
+            ,
+            {
+                "name": "Markdown Previewer",
+                "displayName": "",
+                "summary": "",
+                "website": "https://nervous-kare-e3602b.netlify.app/",
+                "githubUrl": "",
+                "primaryLanguage": "",
+                "languages": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ],
+                "libraries": ["React"],
+                "images": [],
+                "videos": []
+            },
+        ]
+    },
     "work": [
         {
             "company": "Quadsimia",
