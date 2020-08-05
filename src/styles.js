@@ -7,6 +7,11 @@ export const SectionTitle = styled.h3`
   margin-bottom: 0.5rem;
 `;
 
+export const Title = styled.h4`
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+`;
+
 export const Paragraph = styled.p`
   white-space: pre-wrap;
 `;
