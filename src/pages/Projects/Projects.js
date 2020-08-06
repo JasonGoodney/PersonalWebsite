@@ -55,7 +55,7 @@ const Projects = ({ user }) => {
                     ))}
                 </ul>
 
-                <Title>Responsive Web Design</Title>
+                <Title>Web Design</Title>
                 <ul>
                     {user.projects.responsiveWebDesign.map((project, i) => (
                         <ProjectItem key={i}>
