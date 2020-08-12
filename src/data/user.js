@@ -255,12 +255,27 @@ export default {
                 "images": [],
                 "videos": []
             },
-            ,
             {
                 "name": "Markdown Previewer",
                 "displayName": "",
                 "summary": "",
                 "website": "https://nervous-kare-e3602b.netlify.app/",
+                "githubUrl": "",
+                "primaryLanguage": "",
+                "languages": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ],
+                "libraries": ["React"],
+                "images": [],
+                "videos": []
+            },
+            {
+                "name": "Drum Machine",
+                "displayName": "",
+                "summary": "",
+                "website": "https://pedantic-davinci-6de4cd.netlify.app",
                 "githubUrl": "",
                 "primaryLanguage": "",
                 "languages": [
